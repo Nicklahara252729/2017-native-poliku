@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>My First Bootstrap project</title>
+	<style>nav, header, section,footer {margin:10px 0px 0 0px; background:#ccc;} p{text-align:justify;} article{margin:10px 10px 10px 10px;}</style>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+</head>
+
+<body >
+	
+		
+		<!--<div class="hero-unit">
+			<h1>Marketing stuff!</h1>
+			<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+			<a href="#" class="btn btn-large btn-success">Get Started</a>
+			<img src="head.jpg" width="100%">
+		</div>-->
+		<div class="row-fluid">
+		<div class="navbar">
+			<div class="navbar-inner">
+				
+					<div class="span12">
+					<ul class="nav">
+						
+						<li class="active dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+								<i class="icon-user"></i>Pasien
+								<b class="caret"></b>
+							</a>
+							
+							<ul class="dropdown-menu">
+								<li><a href="daftar.php">Pendaftaran</a></li>
+								<li><a href="#">Data Pasien</a></li>
+								
+							</ul>
+						</li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+								<i class="icon-th-large"></i>Transaksi
+								<b class="caret"></b>
+							</a>
+
+							<ul class="dropdown-menu">
+								<li><a href="pr.php">Pemeriksaan</a></li>
+								<li><a href="pr.php">Resep</a></li>
+								<li><a href="pr.php">Pembayaran</a></li>
+							</ul>
+						</li>
+						
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+								<i class="icon-th-large"></i>Service
+								<b class="caret"></b>
+							</a>
+
+							<ul class="dropdown-menu">
+								<li><a href="dr.php">Dokter</a></li>
+								<li><a href="ky.php">Karyawan</a></li>
+							</ul>
+						</li>
+						
+						<li><a href="#">Laporan</a></li>
+						<li><a href="#">User Account</a></li>
+					</ul>
+				</div>
+			</div>
+			</div>
+		</div>
+		</div>
+		</div>
+		
+		<div class="row-fluid">
+		<div class="container">
+			<div class="span12" style="border:1px solid #bbb;border-radius:10px;padding:10px 20px 10px 20px;">
+				<article><p>
+				<form class="form-horizontal">
+				<fieldset>
+				<legend>Data Pasien</legend>			
+							<div class="control-group">
+								<label class="control-label" for="inputnoreg">No. Registrasi</label>
+								<div class="controls">
+								<input class="span2" type="text" name="noreg" id="inputReg" placeholder="No. Reg">
+								</div>
+							</div>
+							<div class="control-group">
+								<label class="control-label" for="inputnama">Nama Pasien</label>
+								<div class="controls">
+								<input class="span4" type="text" name="napes" id="inputnama" placeholder="Nama Pasien">
+								</div>
+							</div>
+							
+							<div class="control-group">
+								<label class="control-label" for="inputJeniskelamin">Jenis Kelamin</label>
+								<div class="controls">
+								<select name="jenkel" class="span2">
+									<option value="Laki-laki">Laki-laki</option>
+									<option value="Perempuan">Perempuan</option>
+								</select>
+								</div>
+							</div>
+							<div class="control-group">
+								<label class="control-label" for="inputnama">No HP.</label>
+								<div class="controls">
+								<input class="span3" type="text" name="nohp" id="inputnohp" placeholder="No HandPhone">
+								</div>
+							</div>
+							<div class="control-group">
+								<label class="control-label" for="inputnama">Alamat</label>
+								<div class="controls">
+								<label><textarea class="span8" rows="3" placeholder="Alamat"></textarea></label>
+								</div>
+							</div>
+							<div class="control-group" style="text-align:center;">
+							<input type="submit" name="boaboan" value="Simpan" class="btn btn-primary" />
+							&nbsp <input type="reset" value="Reset" class="btn btn-warning" onclick=self.history.back()>
+							</div>
+						</fieldset>
+						</form>
+				</p></article>
+				
+				
+			</div>
+		</div>
+		</div>
+		<section>
+	</div> <!-- end dari class container -->
+	<!-- Javascript files harus ditaruh di bawah untuk meningkatkan performa web -->
+	<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+	<script src="js/jquery-2.0.3.min.js"></script>
+	<script src="js/bootstrap.js"></script>
+</body>
+</html>
